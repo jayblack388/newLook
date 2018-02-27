@@ -1,0 +1,25 @@
+{
+  "name": "newlook",
+  "version": "1.0.0",
+  "description": "New look at my profile",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayblack388/newLook.git"
+  },
+  "author": "John Blackwell <jblackwell072588@gmail.com> (jayblack388.github.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jayblack388/newLook/issues"
+  },
+  "homepage": "https://github.com/jayblack388/newLook#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2"
+  }
+}

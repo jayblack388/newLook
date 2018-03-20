@@ -13,54 +13,30 @@
 
       <div class="row">
 
-        <div class="col-md-8" id="pageView">
-
+        <div class="col-md-12" id="pageView">
+          <iframe src="https://peaceful-caverns-16131.herokuapp.com/" height="100%" width="100%" frameborder="0"></iframe>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-12">
           <h3 class="my-3">Project Description</h3>
           <p>
-
+            This is a web scraping tool designed to get information from sites built on Gawker Media's Kinja Platform. Article Titles, URLs, Thumbnails, and Summaries are scraped to a database and then the site renders those articles in Bootstrap cards. Additionally each article will have a comments section where users can add and delete comments for each article. Future development would implement user login so that only a user can delete their own posts.
           </p>
           <h3 class="my-3">Technologies Used</h3>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
             <li>JavaScript</li>
+            <li>EJS</li>
+            <li>Express</li>
+            <li>Node</li>
+            <li>Axios, Cheerio APIs</li>
+            <li>MongoDB, Mongoose</li>
           </ul>
         </div>
 
       </div>
 
-      <h3 class="my-4">Other Projects</h3>
-
-      <div class="row">
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-        <div class="col-md-3 col-sm-6 mb-4">
-          <a href="#">
-            <img class="img-fluid" src="http://placehold.it/500x300" alt="">
-          </a>
-        </div>
-
-      </div>
     </div>
     <% include ../partials/portfoot.ejs %>
   </body>
